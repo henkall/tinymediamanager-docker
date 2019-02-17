@@ -1,3 +1,5 @@
+this is just a copy of romancin's version but updated to Tinymediamanager 3 nightly
+
 # tinymediamanager-docker
 
 A repository for creating a docker container including TinyMediaManager with GUI interface.
