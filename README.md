@@ -1,4 +1,4 @@
-this is just a copy of romancin's version but updated to Tinymediamanager 3 nightly
+this is just a copy of romancin's version but updated to Tinymediamanager 3 stable
 
 # tinymediamanager-docker
 
