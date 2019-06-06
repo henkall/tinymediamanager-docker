@@ -8,9 +8,6 @@ FROM jlesage/baseimage-gui:alpine-3.8-glibc
 # Define software download URLs.
 ARG TMM_URL=http://nightly.tinymediamanager.org/v3/dist/tmm_3.0-SNAPSHOT_linux.tar.gz
 ARG ORACLEJAVAJRE_URL=http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/server-jre-8u131-linux-x64.tar.gz
-# Install missing package
-RUN \
-    apt install libmediainfo* -y
 
 # Define working directory.
 WORKDIR /tmp
