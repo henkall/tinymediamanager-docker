@@ -8,14 +8,6 @@ A repository for creating a docker container including TinyMediaManager with GUI
 [![](https://images.microbadger.com/badges/image/romancin/tinymediamanager.svg)](https://microbadger.com/images/romancin/tinymediamanager "Docker image size")
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X2CT2SWQCP74U)
 
-You can invite me a beer if you want ;) 
-
-This is a completely funcional Docker image with TinyMediaManager.
-
-Based on Alpine Linux, which provides a very small size. 
-
-Tested and working on Synology and QNAP, but should work on any x86_64 devices.
-
 Thanks to @jlesage for a great base image for GUI apps.
 
 Instructions: 
@@ -28,12 +20,33 @@ Sample run command:
 
 ```bash
 docker run -d --name=tinymediamanager \
--v /share/Container/tinymediamanager/config:/config \
--v /share/Container/tinymediamanager/media:/media \
+-v /path/to/tinymediamanager/config:/config \
+-v /path/to/media:/media \
 -e GROUP_ID=0 -e USER_ID=0 -e TZ=Europe/Madrid \
 -p 5800:5800 \
 -p 5900:5900 \
-romancin/tinymediamanager:latest
+henkallsn/tinymediamanager3_nightly
+```
+
+Sample compose to use in portainer stacks
+
+```bash
+---
+version: "2.1"
+services:
+  tinymediamanager:
+    image: henkallsn/tinymediamanager3_nightly
+    container_name: TinyMediaManager
+    environment:
+      - USER_ID=0
+      - GROUP_ID=0
+      - TZ=Europe/Copenhagen
+    volumes:
+      - /path/to/tinymediamanager/config:/config
+      - /path/to/media:/media
+    ports:
+      - 5800:5800
+    restart: unless-stopped
 ```
 
 Browse to `http://your-host-ip:5800` to access the TinyMediaManager GUI.
@@ -275,9 +288,3 @@ server {
 ```
 
 [TimeZone]: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-## Support or Contact
-
-Having troubles with the container or have questions?  Please
-[create a new issue].
-
