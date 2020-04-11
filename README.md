@@ -42,10 +42,15 @@ services:
       - GROUP_ID=0
       - TZ=Europe/Copenhagen
     volumes:
+      # Remember to change this
       - /path/to/tinymediamanager/config:/config
+      # Remember to change this
       - /path/to/media:/media
     ports:
+      # This is for the webgui
       - 5800:5800
+      # This is for the VNC
+      - 5900:5900
     restart: unless-stopped
 ```
 
