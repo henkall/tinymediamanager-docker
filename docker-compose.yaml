@@ -1,5 +1,5 @@
 tinymediamanager_service:
-    image: romancin/tinymediamanager:latest
+    image: henkallsn/tinymediamanager3_nightly
     container_name: tinymediamanager
     ports:
       - "5803:5800"
