@@ -1,8 +1,10 @@
-this is just a copy of romancin's version but updated to Tinymediamanager 3 stable
+This is just a copy of romancin's version but updated to Tinymediamanager 3 stable
 
-# tinymediamanager-docker
+# tinyMediaManager Docker #
 
-A repository for creating a docker container including TinyMediaManager with GUI interface.
+## Description:<img align="right" src="https://yt3.ggpht.com/a/AATXAJzpEQ4JFvVyYPnBtikbO8dtsMi7SvEGC7HjZQ=s288-c-k-c0xffffffff-no-rj-mo">
+
+This is a docker that contains TinyMediaManager with Webgui and VNC gui.
 
 [![](https://images.microbadger.com/badges/version/romancin/tinymediamanager.svg)](https://microbadger.com/images/romancin/tinymediamanager "Docker image version")
 [![](https://images.microbadger.com/badges/image/romancin/tinymediamanager.svg)](https://microbadger.com/images/romancin/tinymediamanager "Docker image size")
