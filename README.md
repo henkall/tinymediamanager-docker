@@ -6,8 +6,8 @@ This is just a copy of romancin's version but updated to Tinymediamanager 3 stab
 
 This is a docker that contains TinyMediaManager with Webgui and VNC gui.
 
-[![](https://images.microbadger.com/badges/version/romancin/tinymediamanager.svg)](https://microbadger.com/images/romancin/tinymediamanager "Docker image version")
-[![](https://images.microbadger.com/badges/image/romancin/tinymediamanager.svg)](https://microbadger.com/images/romancin/tinymediamanager "Docker image size")
+[![](https://images.microbadger.com/badges/version/henkallsn/tinymediamanager.svg)](https://microbadger.com/images/henkallsn/tinymediamanager "Image Version")
+[![](https://images.microbadger.com/badges/image/henkallsn/tinymediamanager.svg)](https://microbadger.com/images/henkallsn/tinymediamanager "Image size")
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X2CT2SWQCP74U)
 
 Thanks to @jlesage for a great base image for GUI apps.
