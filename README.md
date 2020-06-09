@@ -27,7 +27,7 @@ docker run -d --name=tinymediamanager \
 -e GROUP_ID=0 -e USER_ID=0 -e TZ=Europe/Madrid \
 -p 5800:5800 \
 -p 5900:5900 \
-henkallsn/tinymediamanager3_nightly
+henkallsn/tinymediamanager
 ```
 
 Sample compose to use in portainer stacks
@@ -37,7 +37,7 @@ Sample compose to use in portainer stacks
 version: "2.1"
 services:
   tinymediamanager:
-    image: henkallsn/tinymediamanager3_nightly
+    image: henkallsn/tinymediamanager
     container_name: TinyMediaManager
     environment:
       - USER_ID=0
