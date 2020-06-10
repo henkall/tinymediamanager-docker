@@ -67,6 +67,5 @@ VOLUME ["/media"]
 LABEL \
       org.label-schema.name="tinymediamanager" \
       org.label-schema.description="Docker container for TinyMediaManager" \
-      org.label-schema.version="unknown" \
-      org.label-schema.vcs-url="https://github.com/romancin/tmm-docker" \
+      org.label-schema.vcs-url="https://github.com/henkall/tinymediamanager-docker" \
       org.label-schema.schema-version="1.0"
