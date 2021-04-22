@@ -8,7 +8,7 @@ This is a docker that contains TinyMediaManager with Webgui and VNC gui.
 
 [![](https://images.microbadger.com/badges/version/henkallsn/tinymediamanager.svg)](https://microbadger.com/images/henkallsn/tinymediamanager "Image Version")
 [![](https://images.microbadger.com/badges/image/henkallsn/tinymediamanager.svg)](https://microbadger.com/images/henkallsn/tinymediamanager "Image size")
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=RVCZJCWKD9CSW&currency_code=EUR&source=url)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/henkallsn)
 
 Thanks to @jlesage for a great base image for GUI apps.
 
